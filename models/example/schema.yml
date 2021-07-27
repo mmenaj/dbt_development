@@ -19,3 +19,6 @@ models:
             tests:
                 - unique
                 - not_null
+                
+    - name: staging_customer
+      description: "STAGING CUSTOMER - Extracc. Clientes"       
