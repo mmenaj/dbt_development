@@ -18,6 +18,8 @@ with source_data as (
     select 2 as id 
     union all
     select 444 as id
+    union all
+    select 55 as id
 
 )
 
