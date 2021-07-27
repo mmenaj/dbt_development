@@ -18,7 +18,4 @@ models:
             description: "The primary key for this table"
             tests:
                 - unique
-                - not_null
-                
-    - name: staging_customer
-      description: "STAGING CUSTOMER - Extracc. Clientes"       
+                - not_null    
