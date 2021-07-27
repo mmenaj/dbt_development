@@ -6,7 +6,7 @@ default:
 
     desa: # User-Password config
       type: snowflake
-      account: eb15317
+      account: eb15317.europe-west4.gcp
       user: DBT_CLOUD_DEV
       password: sDg_2021
       role: TRANSFORMER_DEV_ROLE
