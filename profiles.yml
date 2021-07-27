@@ -1,0 +1,20 @@
+config:
+  send_anonymous_usage_stats: False
+
+default:
+  outputs:
+
+    dev: # User-Password config
+      type: snowflake
+      account: eb15317.europe-west4.gcp
+      user: DBT_CLOUD_DEV
+      password: sDg_2021
+      role: TRANSFORMER_DEV_ROLE
+      database: DESA
+      warehouse: TRANSFORMING_DEV
+      schema: dbt_mmenaj
+      threads: 2
+      client_session_keep_alive: False
+
+
+  target: dev
