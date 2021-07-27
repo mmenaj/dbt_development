@@ -11,7 +11,7 @@ default:
       password: sDg_2021
       role: TRANSFORMER_DEV_ROLE
       database: DESA
-      warehouse: TRANSFORMING
+      warehouse: TRANSFORMING_DEV
       schema: dbt_mmenaj
       threads: 2
       client_session_keep_alive: False
