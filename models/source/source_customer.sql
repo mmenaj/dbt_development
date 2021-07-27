@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 with source_customer as (
   select *,
          sysdate() as fdate,
