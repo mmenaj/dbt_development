@@ -1,0 +1,5 @@
+version: 1
+
+models:
+    - name: staging_customer
+      description: "STAGING CUSTOMER - Extracc. Clientes"       
