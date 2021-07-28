@@ -38,3 +38,15 @@ models:
           materialized: view
       source:
           materialized: view
+      hubs:
+          materialized: incremental
+        tags:
+          - 'hub'
+      links:
+          materialized: incremental
+        tags:
+          - 'link'
+      sats:
+          materialized: incremental
+        tags:
+          - 'satellite'          
