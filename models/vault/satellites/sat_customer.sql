@@ -1,5 +1,8 @@
 {{ config(materialized='incremental') }}
 
+update {{ ref('sat_customer') }}
+SET loadEndDate=sysdate();
+
 with source as (
   select * from {{ ref('staging_customer') }}
 ),
