@@ -6,8 +6,8 @@ with source as (
 
 hub_region as (
   select
-    md5(UPPER(R_REGIONKEY)) as NATION_KEY,
-    R_REGIONKEY as NATION_ID,
+    md5(UPPER(R_REGIONKEY)) as REGION_KEY,
+    R_REGIONKEY as REGION_ID,
     sysdate() as loadDate,
     'staging_region' as dataSource	
   from source
