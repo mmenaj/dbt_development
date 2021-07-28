@@ -2,4 +2,25 @@ version: 2
 
 models:
     - name: staging_customer
-      description: "STAGING CUSTOMER - Staging Clientes"   
+      description: "STAGING CUSTOMER"   
+
+    - name: staging_orders
+      description: "STAGING ORDERS"   
+
+    - name: staging_lineitem
+      description: "STAGING LINEITEM"   
+
+    - name: staging_nation
+      description: "STAGING NATION"   
+
+    - name: staging_part
+      description: "STAGING PART"   
+
+    - name: staging_partsupp
+      description: "STAGING PARTSUPP"   
+
+    - name: staging_region
+      description: "STAGING REGION"   
+
+    - name: staging_supplier
+      description: "STAGING SUPPLIER"   
