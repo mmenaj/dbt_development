@@ -1,5 +1,3 @@
-{{ config(materialized='incremental') }}
-
 with source as (
   select * from {{ ref('staging_customer') }}
 ),
