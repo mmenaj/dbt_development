@@ -14,10 +14,4 @@ hub_customer as (
 )
 select
   *
-from hub_customer;
-
-
-
-update {{ ref('sat_customer') }}
-SET loadEndDate=sysdate();
-COMMIT;
+from hub_customer
