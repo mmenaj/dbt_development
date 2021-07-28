@@ -7,8 +7,8 @@ with source as (
 staging_customer as (
   select
     *,
-	sysdate() as fdate,
-	'source_customer' as data_origin	
+	sysdate() as sdate,
+	'source_customer' as staging_origin	
   from source
 )
 select
