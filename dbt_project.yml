@@ -39,11 +39,11 @@ models:
       source:
           materialized: view
       hubs:
-          materialized: incremental
+          materialized: table
         tags:
           - 'hub'
       links:
-          materialized: incremental
+          materialized: table
         tags:
           - 'link'
       sats:
