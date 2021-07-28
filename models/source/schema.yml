@@ -2,4 +2,25 @@ version: 2
 
 models:
     - name: source_customer
-      description: "SOURCE CUSTOMER - Extracc. Clientes"   
+      description: "SOURCE CUSTOMER"   
+
+    - name: source_orders
+      description: "SOURCE ORDERS"   
+
+    - name: source_lineitem
+      description: "SOURCE LINEITEM"   
+
+    - name: source_nation
+      description: "SOURCE NATION"   
+
+    - name: source_part
+      description: "SOURCE PART"   
+
+    - name: source_partsupp
+      description: "SOURCE PARTSUPP"   
+
+    - name: source_region
+      description: "SOURCE REGION"   
+
+    - name: source_supplier
+      description: "SOURCE SUPPLIER"   
