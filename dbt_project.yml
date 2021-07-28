@@ -37,16 +37,10 @@ models:
       example:
           materialized: view
       source:
-          materialized: view
+          materialized: table
+      staging:
+          materialized: table          
       hubs:
           materialized: table
         tags:
           - 'hub'
-      links:
-          materialized: table
-        tags:
-          - 'link'
-      sats:
-          materialized: incremental
-        tags:
-          - 'satellite'          
