@@ -1,4 +1,4 @@
-## 1. Lanzar dbt desde versión debug local
+## Lanzar dbt desde versión debug local
 
 Debian:
 
