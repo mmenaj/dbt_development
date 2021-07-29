@@ -44,8 +44,6 @@ models:
     expl:
       tags:
         - 'expl'
-      docs:
-        color: "red"
       materialized: view      
     vault:
       tags:
