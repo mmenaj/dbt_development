@@ -24,3 +24,6 @@ models:
 
     - name: source_supplier
       description: "SOURCE SUPPLIER"   
+      
+    - name: source_datedim
+      description: "SOURCE DATEDIM"         
