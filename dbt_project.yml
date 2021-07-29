@@ -45,6 +45,10 @@ models:
       tags:
         - 'expl'
       materialized: view      
+    aux:
+      tags:
+        - 'aux'
+      materialized: table        
     vault:
       tags:
         - 'vault'
