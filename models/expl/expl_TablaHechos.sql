@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 with LN_OPS as (
   select * from {{ ref('link_order_part_supp') }} 
 ),
