@@ -6,7 +6,7 @@ with source as (
 
 sat_part_supplier as (
   select
-    md5(UPPER(L_ORDERKEY) || UPPER(L_PARTKEY) || UPPER(L_SUPPKEY)) as LINK_ORDER_PART_SUPP_KEY,
+    md5(UPPER(PS_PARTKEY) || UPPER(PS_SUPPKEY)) as LINK_ORDER_PART_SUPP_KEY,
 	PS_AVAILQTY,
 	PS_SUPPLYCOST,
 	PS_COMMENT,
