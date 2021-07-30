@@ -1,10 +1,5 @@
-with 
-expl_tablahechos as (
-  select * from "PROD"."MODELADO"."EXPL_TABLAHECHOS"
-),
-
-source as (
-  select * from {{ ref('expl_tablahechos') }}
+with source as (
+  select * from {{ var('explo_tablahechos') }}
 ),
 
 v_expl_TablaHechos as (
