@@ -66,3 +66,4 @@ models:
       satellites:
         tags:
           - 'satellite'
+        materialized: incremental  
