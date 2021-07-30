@@ -44,7 +44,11 @@ models:
     expl:
       tags:
         - 'expl'
-      materialized: view      
+      materialized: table 
+    analytics:
+      tags:
+        - 'analytics'
+      materialized: view         
     aux:
       tags:
         - 'aux'
